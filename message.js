@@ -1,7 +1,7 @@
 !function () {
     var model = Model({resourceName:'message'})
 
-    var view = document.querySelector('section.weisha')
+    var view = document.querySelector('div.weisha')
 
     var controller = Controller({
         messagelist:null,
